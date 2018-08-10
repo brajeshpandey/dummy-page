@@ -1,0 +1,44 @@
+@media screen and (max-width: 600px) {
+  .about-section-wrapper{
+    flex-direction: column;
+  }
+  .about-section-wrapper .about-me-image-section{
+    order: -1;
+  }
+  .about-section-wrapper .about-me-desc-section {
+    height: 100vw;
+  }
+  .about-me-image-section, .about-me-desc-section {
+    width: 100%;
+  }
+  .about-section-wrapper {
+    width: 100%;
+    padding: 13px 0px;
+  }
+  .about-section {
+    height: 106vh;
+    padding: 20px;
+  }
+  .services-boxes {
+    width: 88%;
+    margin: 4% 0%;
+    float: left;
+    border: 1px solid #e8e8e8;
+  }
+  .our-services-section {
+    background-color: #f8f9fa!important;
+    height: 255vh;
+    margin-top: 50px;
+    padding: 20px 16px;
+  }
+  .contact-us-desc {
+    width: 94%;
+    margin: 1% 2%;
+    float: left;  
+  }
+  .contact-us-section-align {
+    height: 120vw;
+    margin-top: 50px;
+    padding: 20px 16px;
+  }
+}
